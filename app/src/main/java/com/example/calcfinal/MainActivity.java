@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this, Main_Tela2.class);
                 intent.putExtra("resultado",etresultado.getText().toString());
+
                 startActivity(intent);
 
             }
